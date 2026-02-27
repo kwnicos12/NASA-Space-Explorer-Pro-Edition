@@ -220,10 +220,22 @@ Proyecto educativo/demo. Uso libre para fines personales y de aprendizaje.
 
 ---
 
-## 👨‍🚀 Autor
+## 👨‍💻 Autor
+Desarrollado por Cristian Diaz - **Trainer en Desarrollo de Software**
 
-Proyecto desarrollado como explorador espacial interactivo usando la API oficial de la NASA.
+Desarrollado como proyecto frontend para práctica de consumo de APIs y manipulación del DOM.
 
+---
+
+
+<p align="center">
+  <img width="300" src="https://i.imgur.com/YYf2LgH.png" alt="Logo del autor">
+</p>
+
+---
+<p align="center">
+  2026
+</p> 
 ---
 
 > 🌠 **NASA Space Explorer – Pro Edition** es una aplicación moderna, ligera y visualmente atractiva que permite explorar el universo desde el navegador con datos reales proporcionados por la NASA.
