@@ -3,30 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NASA Space Explorer | Pro Edition</title>
+    <title>NASA Explorer | 2026 Edition</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
 <nav>
   <h1>NASA Explorer</h1>
-  <button class="btn btn-primary" onclick="showFavorites()">⭐ Favoritos</button>
+  <div class="nav-actions">
+    <button class="btn btn-secondary" onclick="showFavorites()">⭐ Mis Favoritos</button>
+  </div>
 </nav>
 
 <section class="hero">
   <h2>Descubre el Cosmos</h2>
-  <p>Explora la Imagen Astronómica del Día (APOD)</p>
+  <p>Explora la Imagen Astronómica del Día y archivos históricos de la NASA</p>
 </section>
 
 <div class="controls">
-  <input type="date" id="start">
-  <input type="date" id="end">
-  <button class="btn btn-primary" onclick="loadRange()">🔍 Buscar Rango</button>
-  <button class="btn btn-primary" style="background:#334155; color:white;" onclick="loadToday()">📅 Hoy</button>
+  <div class="search-box">
+    <input type="date" id="start">
+    <input type="date" id="end">
+    <button class="btn btn-primary" onclick="loadRange()">🔍 Explorar Rango</button>
+  </div>
+  <div class="quick-actions">
+    <button class="btn btn-dark" onclick="loadToday()">📅 Hoy</button>
+    <button class="btn btn-accent" onclick="loadRandom()">🎲 Sorpréndeme</button>
+  </div>
 </div>
 
 <div id="statusContainer"></div>
-<div class="gallery" id="gallery"></div>
+<main class="gallery" id="gallery"></main>
 
 <div class="modal" id="modal">
   <div class="modal-content">
@@ -36,6 +43,10 @@
 </div>
 
 <div class="toast" id="toast"></div>
+
+<footer>
+    <p>Hecho a mano por Carolina Calderon &copy; 2026</p>
+</footer>
 
 <script src="app.js"></script>
 </body>
